@@ -16,4 +16,5 @@ server {
 
 client {
     enabled = true
+    network_interface = "eth1"
 }
