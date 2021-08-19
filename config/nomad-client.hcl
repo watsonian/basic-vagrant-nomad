@@ -16,5 +16,11 @@ server {
 
 client {
     enabled = true
+
+    # This is required for a Vagrant environment because
+    # clients default to using the interface attached to
+    # the default route, which is eth0. That interface is
+    # a NAT setup that isn't really routable and is used
+    # by Vagrant for `vagrant ssh`.
     network_interface = "eth1"
 }
