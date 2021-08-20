@@ -60,7 +60,7 @@ Vagrant.configure(2) do |config|
       end
 
       server.vm.provider "virtualbox" do |vb|
-        vb.memory = "1024"
+        vb.memory = "2048"
       end
     end
   end
