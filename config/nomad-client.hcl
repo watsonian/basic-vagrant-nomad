@@ -12,6 +12,8 @@ advertise {
 
 server {
     enabled = false
+
+    license_path = "/vagrant/nomad.lic"
 }
 
 client {

@@ -13,6 +13,8 @@ advertise {
 server {
     enabled = true
     bootstrap_expect = 3
+
+    license_path = "/vagrant/nomad.lic"
 }
 
 client {

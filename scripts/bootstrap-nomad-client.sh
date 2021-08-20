@@ -40,7 +40,7 @@ EOF
 
 
 echo "Installing Nomad..."
-NOMAD_VERSION=1.1.3
+NOMAD_VERSION=1.1.3+ent
 cd /tmp/
 curl -sSL https://releases.hashicorp.com/nomad/${NOMAD_VERSION}/nomad_${NOMAD_VERSION}_linux_amd64.zip -o nomad.zip
 unzip nomad.zip
